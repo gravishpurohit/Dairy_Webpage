@@ -10,7 +10,7 @@
 #navbar{
     display : flex;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 0px;
 }
 
@@ -61,7 +61,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 600px;
+    height: 500px;
     justify-content: center;
     align-items: center;
 }
@@ -316,10 +316,42 @@ footer{
         border: 2px solid white;
         background-color: blue;
         color: white;
-       
         font-size: 1.2rem;
         border-radius: 10px;
         cursor:pointer;
         margin-top: 20px;
     }
+#tan {
+    display: flex;
+}
 
+
+#wan{
+    position: relative;
+    font-size: 20px;
+    margin-top: 0px;
+}
+#ban img{
+    height: 50px; 
+}
+
+#man{
+    position: relative;
+    margin:auto;
+    display:block;
+
+}
+#man img{
+       height:100px;
+       cursor:pointer;
+}
+#yan img{
+    height: 50px
+}
+#can{
+    position: relative;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor:pointer;
+}
